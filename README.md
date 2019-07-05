@@ -1,2 +1,2 @@
 # SkyzcLibrary
-一个基于SpringMVC+Maven+JdbcTemplate +Jetty构建的图书管理系统
+一个基于SpringMVC+Maven+Jetty构建的图书管理系统
