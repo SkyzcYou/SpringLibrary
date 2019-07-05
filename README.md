@@ -29,7 +29,7 @@ $ mvn jetty:run
 
 浏览器进入：
 
-[http://localhost:8085]: http://localhost:8085
+http://localhost:8085
 
 ####  业务功能描述图：
 
