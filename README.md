@@ -39,7 +39,7 @@ http://localhost:8085
 
 ![功能描述图](https://github.com/JenKinY/SkyzcLibrary/raw/master/preview/业务流程图.png)
 
-#### 数据表说明&数据库E-R图：
+#### 数据表说明&数据库设计图：
 ![功能描述图](https://github.com/JenKinY/SkyzcLibrary/raw/master/db/数据表说明.png)
 ![功能描述图](https://github.com/JenKinY/SkyzcLibrary/raw/master/db/数据库E-R.png)
 
