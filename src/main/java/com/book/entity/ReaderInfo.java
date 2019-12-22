@@ -19,6 +19,7 @@ public class ReaderInfo implements Serializable{
     private String address;
     private String telcode;
 
+
     public void setName(String name) {
         this.name = name;
     }
