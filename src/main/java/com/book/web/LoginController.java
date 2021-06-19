@@ -17,9 +17,6 @@ import java.util.HashMap;
 
 /**
  * web-LoginController 登录控制器
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/06/30 15:37
  */
 
 //标注为一个Spring mvc的Controller

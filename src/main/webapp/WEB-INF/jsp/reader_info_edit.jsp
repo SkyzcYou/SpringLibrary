@@ -1,12 +1,6 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Skyzc
-  Date: 2019/07/01
-  Time: 11:40
-  To change this template use File | Settings | File Templates.
---%>
+
 <html>
 <head>
     <title>${readercard.name}的主页</title>

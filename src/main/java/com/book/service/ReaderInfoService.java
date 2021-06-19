@@ -8,9 +8,6 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 /**
  * service-ReaderInfoService
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/06/30 09:40
  */
 @Service
 public class ReaderInfoService {

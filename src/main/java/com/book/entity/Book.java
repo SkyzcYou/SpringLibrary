@@ -6,9 +6,6 @@ import java.util.Date;
 
 /**
  * entity-书本信息
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/07/01 13:35
  */
 
 public class Book implements Serializable{

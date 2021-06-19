@@ -6,9 +6,6 @@ import org.springframework.stereotype.Repository;
 
 /**
  * Dao-管理员账户
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/07/01 10:41
  */
 
 @Repository

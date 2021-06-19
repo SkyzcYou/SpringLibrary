@@ -1,11 +1,4 @@
 <%@ page import="com.book.entity.Book" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Skyzc
-  Date: 2019/07/01
-  Time: 14:25
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
@@ -133,7 +126,6 @@
                 <th>读者证号</th>
                 <th>借出日期</th>
                 <th>归还日期</th>
-                <th>删除</th>
             </tr>
             </thead>
             <tbody>
@@ -144,7 +136,6 @@
                     <td><c:out value="${alog.readerId}"></c:out></td>
                     <td><c:out value="${alog.lendDate}"></c:out></td>
                     <td><c:out value="${alog.backDate}"></c:out></td>
-                    <td><a href="deletebook.html?bookId=<c:out value="${alog.sernum}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
                 </tr>
             </c:forEach>
             </tbody>

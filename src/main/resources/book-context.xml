@@ -14,9 +14,9 @@
     <!--  定义一个使用DBCP实现的数据源 -->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close"
-          p:driverClassName="com.mysql.jdbc.Driver"
-          p:url="jdbc:mysql://localhost:3306/book_management_system?characterEncoding=UTF-8"
-            p:username="root"
+          p:driverClassName="com.mysql.cj.jdbc.Driver"
+          p:url="jdbc:mysql://localhost:3306/book_management_system?serverTimezone=UTC&amp;useSSL=false&amp;characterEncoding=UTF-8"
+          p:username="root"
           p:password="youzc"/>
     <!-- 定义JDBC模板Bean   -->
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"

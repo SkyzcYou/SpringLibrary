@@ -10,9 +10,6 @@ import java.util.ArrayList;
 
 /**
  * service-LendService
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/06/30 09:35
  */
 @Service
 public class LendService {

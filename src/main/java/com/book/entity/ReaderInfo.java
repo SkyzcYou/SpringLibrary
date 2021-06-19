@@ -5,9 +5,6 @@ import java.util.Date;
 
 /**
  * entity-出借信息
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/06/30 21:34
  */
 
 public class ReaderInfo implements Serializable{

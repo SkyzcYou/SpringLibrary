@@ -13,9 +13,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.servlet.http.HttpServletRequest;
 /**
  * web-LendController 借书的控制器
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/06/30 15:37
  */
 @Controller
 public class LendController {

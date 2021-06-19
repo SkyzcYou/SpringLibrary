@@ -13,6 +13,10 @@ Maven 3.6.0
 
 #### 如何使用
 
+1. 将项目导入 IDE , 修改数据库配置 （book-context.xml）
+2. 运行
+
+##### 运行方案一 使用 Jetty ：
 ```bash
 $ git clone https://github.com/JenKinY/SkyzcLibrary.git
 
@@ -25,6 +29,11 @@ $ mvn clean package
 $ mvn clean install
 
 $ mvn jetty:run
+```
+
+##### 运行方案二 使用 Tomcat 
+```shell
+在 IDEA 内配置 Tomcat 运行即可
 ```
 
 浏览器进入：

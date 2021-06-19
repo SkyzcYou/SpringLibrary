@@ -14,9 +14,6 @@ import java.util.Date;
 
 /**
  * Dao-书本
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/07/01 10:50
  */
 
 @Repository

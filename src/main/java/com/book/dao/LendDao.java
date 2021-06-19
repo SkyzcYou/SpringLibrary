@@ -14,9 +14,6 @@ import java.util.Date;
 
 /**
  * Dao-借书
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/07/01 11:01
  */
 
 @Repository
@@ -40,7 +37,14 @@ public class LendDao {
 
     private final static String LEND_LIST_SQL="SELECT * FROM lend_list";
 
-    private final static String MY_LEND_LIST_SQL="SELECT * FROM lend_list WHERE reader_id = ? ";
+    private final static String MY_LEND_LIST_SQL="SELECT * FROM lend_list WHERE sernum = ? ";
+
+    private final static String DELETE_LEND_LIST_SQL="delete from lend_list where book_id = ?  ";
+
+    public int deleteLendList(long sernum){
+        return jdbcTemplate.update(DELETE_LEND_LIST_SQL,sernum);
+    }
+
 
     public int bookReturnOne(long bookId){
         return  jdbcTemplate.update(BOOK_RETURN_SQL_ONE,new Object[]{df.format(new Date()),bookId});

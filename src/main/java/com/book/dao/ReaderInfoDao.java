@@ -13,9 +13,6 @@ import java.util.Date;
 
 /**
  * Dao-用户个人信息
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/07/01 11:06
  */
 
 

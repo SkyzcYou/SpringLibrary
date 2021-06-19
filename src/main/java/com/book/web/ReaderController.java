@@ -18,9 +18,6 @@ import java.util.ArrayList;
 import java.util.Date;
 /**
  * web-ReaderController
- * @author Skyzc
- * @email youzhengcai@gmail.com
- * @date 2019/06/30 15:37
  */
 @Controller
 public class ReaderController {
@@ -55,6 +52,7 @@ public class ReaderController {
     public String readerDelete(HttpServletRequest request,RedirectAttributes redirectAttributes){
         int readerId= Integer.parseInt(request.getParameter("readerId"));
         boolean success=readerInfoService.deleteReaderInfo(readerId);
+        success = readerCardService.deleteReaderCard(readerId);
 
         if(success){
             redirectAttributes.addFlashAttribute("succ", "删除成功！");
