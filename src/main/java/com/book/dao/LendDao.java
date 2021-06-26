@@ -37,7 +37,7 @@ public class LendDao {
 
     private final static String LEND_LIST_SQL="SELECT * FROM lend_list";
 
-    private final static String MY_LEND_LIST_SQL="SELECT * FROM lend_list WHERE sernum = ? ";
+    private final static String MY_LEND_LIST_SQL="SELECT * FROM lend_list WHERE reader_id = ? ";
 
     private final static String DELETE_LEND_LIST_SQL="delete from lend_list where book_id = ?  ";
 
